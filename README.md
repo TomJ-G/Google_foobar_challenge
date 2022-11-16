@@ -52,6 +52,7 @@ Inputs:
 x = [2, 0, 2, 2, 0]  
 Output:  
 "8"  
+  
 Inputs:  
 x = [-2, -3, 4, -5]  
 Output:  
