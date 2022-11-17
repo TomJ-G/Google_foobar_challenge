@@ -48,6 +48,7 @@ and each panel will have a power output level whose absolute value is no greater
  the positive output of the multiple of their power values). 
 The final products may be very large, so give the answer as a string representation of the number.
 
+Test cases:  
 Inputs:  
 x = [2, 0, 2, 2, 0]  
 Output:  
@@ -58,6 +59,37 @@ x = [-2, -3, 4, -5]
 Output:  
 "60"  
   
+_________________________________  
+**2-2 Bunny Prisoner Locating**
+
+Keeping track of Commander Lambda's many bunny prisoners is starting to get tricky. You've been tasked with writing a program to match bunny prisoner IDs to cell locations.  
+
+The LAMBCHOP doomsday device takes up much of the interior of Commander Lambda's space station, and as a result the prison blocks have an unusual layout. They are stacked in a triangular shape, and the bunny prisoners are given numerical IDs starting from the corner, as follows:  
+  
+| 7  
+| 4 8  
+| 2 5 9  
+| 1 3 6 10  
+  
+Each cell can be represented as points (x, y), with x being the distance from the vertical wall, and y being the height from the ground. 
+  
+For example, the bunny prisoner at (1, 1) has ID 1, the bunny prisoner at (3, 2) has ID 9, and the bunny prisoner at (2,3) has ID 8. This pattern of numbering continues indefinitely (Commander Lambda has been taking a LOT of prisoners). 
+  
+Write a function answer(x, y) which returns the prisoner ID of the bunny at location (x, y). Each value of x and y will be at least 1 and no greater than 100,000. Since the prisoner ID can be very large, return your answer as a string representation of the number.
+  
+Test cases:
+  
+Inputs:  
+x = 3  
+y = 2  
+Output:  
+"9"  
+  
+Inputs:  
+x = 5  
+y = 10  
+Output:  
+"96"  
 _________________________________
 **3-2 Bomb, Baby!**  
   
@@ -73,6 +105,7 @@ And finally, you were only able to smuggle one of each type of bomb - one Mach, 
 
 You need to know how many replication cycles (generations) it will take to generate the correct amount of bombs to destroy the LAMBCHOP. Write a function solution(M, F) where M and F are the number of Mach and Facula bombs needed. Return the fewest number of generations (as a string) that need to pass before you'll have the exact number of bombs necessary to destroy the LAMBCHOP, or the string "impossible" if this can't be done! M and F will be string representations of positive integers no larger than 10^50. For example, if M = "2" and F = "1", one generation would need to pass, so the solution would be "1". However, if M = "2" and F = "4", it would not be possible.
 
+Test cases:  
 Input:  
 solution.solution('4', '7')  
 Output:  
@@ -107,6 +140,7 @@ the shot at bearing [-3, -2] bounces off the left wall and then the bottom wall 
 with a total shot distance of sqrt(13), and the shot at bearing [1, 2] bounces off just the top wall before hitting 
 the elite trainer with a total shot distance of sqrt(5).
 
+Test cases:  
 Input:  
 solution.solution([3,2], [1,1], [2,1], 4)  
 Output:  
@@ -170,6 +204,7 @@ and would return 4. The width of the grid will be between 3 and 50 inclusive,
 and the height of the grid will be between 3 and 9 inclusive.  
 The solution will always be less than one billion (10^9).
 
+Test cases:  
 Input:  
 solution.solution([[True, True, False, True, False, True, False, True, True, False], [True, True, False, False, False, False, True, True, True, False], [True, True, False, False, False, False, False, False, False, True], [False, True, False, False, False, False, True, True, False, False]])  
 Output:  
