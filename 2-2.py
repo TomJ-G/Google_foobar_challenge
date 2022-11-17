@@ -12,4 +12,4 @@ def solution(x,y):
     sum = 0
     for i in range(0,level):
         sum += i
-    return(sum+level-y+1)
+    return(str(sum+level-y+1))
