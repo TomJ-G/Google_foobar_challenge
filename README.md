@@ -1,6 +1,6 @@
 # Google_foobar_challenge
 This repository contains my solutions to Google Foobar challenge.
-**Now that I uploaded all solutions, I'll try to give explanations to them as soon as possible. Probably I should have done that in the first place, but well, not enough time...**
+The comments, explaining how I solved the challenge are given in the code.
 
 ## Challenges
 
